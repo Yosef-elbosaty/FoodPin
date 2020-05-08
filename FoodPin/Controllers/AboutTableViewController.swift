@@ -12,10 +12,12 @@ import SafariServices
 class AboutTableViewController: UITableViewController {
 
     
-    var sectionTitles = ["Leave Feedback", "Follow Us"]
-    var sectionContent = [["Rate us on App Store", "Tell us your feedback"],
+    var sectionTitles = ["Leave Feedback".localized, "Follow Us".localized]
+    var sectionContent = [["Rate us on App Store".localized, "Tell us your feedback".localized],
     ["Twitter", "Facebook", "LinkedIn"]]
-    var links = ["https://twitter.com/yosefelbosaty", "https://www.facebook.com/yosef.elbosaty.7", "https://www.linkedin.com/in/yosef-elbosaty-a31589183/"]
+    var links = ["https://twitter.com/yosefelbosaty", "https://www.facebook.com/yosef.elbosaty.7",
+                 "https://www.linkedin.com/in/yosef-elbosaty-a31589183/"]
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

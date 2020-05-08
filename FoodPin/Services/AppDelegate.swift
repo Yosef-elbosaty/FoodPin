@@ -8,12 +8,13 @@
 
 import UIKit
 import CoreData
+import MOLH
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, MOLHResetable {
 
-
-
+    var window: UIWindow?
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
     
@@ -35,7 +36,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UITabBar.appearance().barTintColor = UIColor(red: 240.0/255.0, green: 240.0/255.0, blue: 240.0/255.0, alpha: 0.2)
         UITabBar.appearance().backgroundImage = UIImage(named: "tabbar-background")
         
+        //MOLH
+        MOLH.shared.activate(true)
+        
         return true
+    }
+    
+    //MOLH Protocol
+    func reset() {
+        
+        let rootviewcontroller: UIWindow = ((UIApplication.shared.delegate?.window)!)!
+        let stry = UIStoryboard(name: "Main", bundle: nil)
+        rootviewcontroller.rootViewController = stry.instantiateViewController(withIdentifier: "Home")
+        
+
+     
     }
 
     // MARK: UISceneSession Lifecycle
@@ -97,5 +112,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
     }
 
+}
+extension String{
+    var localized : String{
+        return NSLocalizedString(self, comment: "")
+    }
 }
 

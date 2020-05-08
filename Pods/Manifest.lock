@@ -1,16 +1,20 @@
 PODS:
+  - MOLH (1.3)
   - TextFieldEffects (1.6.0)
 
 DEPENDENCIES:
+  - MOLH
   - TextFieldEffects
 
 SPEC REPOS:
   trunk:
+    - MOLH
     - TextFieldEffects
 
 SPEC CHECKSUMS:
+  MOLH: a31ef0b87351074d81253606a96b290f9eca161a
   TextFieldEffects: 529b8aff706fb40f82c41c780c0777941a893796
 
-PODFILE CHECKSUM: 7cf0aedb1999909f736095c6ae0557490aa8be4d
+PODFILE CHECKSUM: 5fe76a57d042ab1a166fc15d8feb1aab6eecc9ce
 
 COCOAPODS: 1.9.1

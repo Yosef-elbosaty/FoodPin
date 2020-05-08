@@ -72,8 +72,8 @@ class AddRestaurantTableViewController: UITableViewController, UIImagePickerCont
     //MARK:- Save Button Pressed
     @IBAction func saveButtonPressed(_ sender: Any) {
         if nameTextField.text == "" || locationTextField.text == "" || typeTextField.text == "" || phoneTextField.text == "" {
-            let alertController = UIAlertController(title: "OOPS!", message: "We can't proceed because one of the fields is blank, Please note that all fields are required.", preferredStyle: .alert)
-            let action = UIAlertAction(title: "OK", style: .default, handler: nil)
+            let alertController = UIAlertController(title: "AlertTitle".localized, message: "Alertmsg".localized, preferredStyle: .alert)
+            let action = UIAlertAction(title: "AlertAction".localized, style: .default, handler: nil)
             alertController.addAction(action)
             present(alertController, animated: true, completion: nil)
         }else{

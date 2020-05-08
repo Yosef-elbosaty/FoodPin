@@ -7,26 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		20DE67D72BDBAFE488ADFEA37248E7B1 /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F1EED4AB9CD5C9D6757A94162D9650 /* MinoruTextField.swift */; };
-		38D67CCC13EA655D14FE8AC86339133B /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29477B9697CB1C8BCEE55B494CDD0E3 /* TextFieldEffects.swift */; };
-		4308AF71548AFBA54D1968660B2765B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		4C9B7E188A49F0241CA33C38C7D26DC4 /* TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF7C4F3953DD8485F14CA5EFB67FDD8 /* TextFieldEffects-dummy.m */; };
-		86EED6E725DC04C21F0831112187BCE5 /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C90B0D7216EBC8C5E7D1CDA649A2ED /* JiroTextField.swift */; };
-		88DD9343E52B59E23C4ADF9E707DD921 /* Pods-FoodPin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78FDB250714CFF88C0BA5D9A68DA00D1 /* Pods-FoodPin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95BF8CF23188F30BC6635B94B06979AF /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4C3C09CA133F581750E48C1A713C90 /* AkiraTextField.swift */; };
-		A7D43F34F595625CFF83A1D4FFD4010E /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC73B25C9DDB458F1536727156C0408B /* YokoTextField.swift */; };
-		A93B19C2740982EB1EF58C4C13C33A1B /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B9DED95880FEFD6B9F2F70903A211E /* HoshiTextField.swift */; };
-		AE9FF4C66667F464BFA16BC0AC830025 /* TextFieldEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6BDF80017C12ED969B2B92A555DCB54 /* TextFieldEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B95B5A7C1CD8DEE336E273AA9D401B74 /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09F7DC0288B3111A26F6943CF65739A /* KaedeTextField.swift */; };
+		20DE67D72BDBAFE488ADFEA37248E7B1 /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327E056BAD52B1FEC88C407FCA660EA8 /* MinoruTextField.swift */; };
+		38BFC3CD5480E0EEAB911DD3BD7BFCD5 /* MOLH-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D00651D4D76780A183991603D784AC /* MOLH-dummy.m */; };
+		38D67CCC13EA655D14FE8AC86339133B /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C42F2942BA5643EE650C727DB22D42E /* TextFieldEffects.swift */; };
+		457FF60E0C74C5CB1E9070B159110650 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		46A843A9E8649817906128924C1AF4AE /* MOLHFontLocalizableViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5CDBD1D3AFE76C7A7F2AF90D34891C /* MOLHFontLocalizableViews.swift */; };
+		4C9B7E188A49F0241CA33C38C7D26DC4 /* TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC173B7B012F7DF3E038AE249949F8C2 /* TextFieldEffects-dummy.m */; };
+		86EED6E725DC04C21F0831112187BCE5 /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77AD5FA9C26B2AF0D7BC4DA6BE8549B /* JiroTextField.swift */; };
+		8C876A2D4F7E65C828A77953FA207630 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8D16265DA7CAD0A406817EE5A4D88A1D /* MOLHLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0950EE9ADDC74A70610E63F5A2BA6774 /* MOLHLanguage.swift */; };
+		95BF8CF23188F30BC6635B94B06979AF /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C79E06F4AFC0AF61CA5A206F3632D1 /* AkiraTextField.swift */; };
+		9A7BE1A3E1D5A02BEACED64D0952217B /* MOLHFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C9AE36BCBCC11C4ACBFD640B8C7AB /* MOLHFont.swift */; };
+		9AD533305E05388B90C35909262A2975 /* MOLHSizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EE98CB371F45DCE24F34BCDAE98C32 /* MOLHSizable.swift */; };
+		A7D43F34F595625CFF83A1D4FFD4010E /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88BAD7E9C168C2B1E29C1B91308361D /* YokoTextField.swift */; };
+		A93B19C2740982EB1EF58C4C13C33A1B /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B44F4B2D3B208995ABD5CE81E3AE80 /* HoshiTextField.swift */; };
+		ADEB6B1CE95DE2729D2B675658B0FF57 /* Pods-FoodPin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78FDB250714CFF88C0BA5D9A68DA00D1 /* Pods-FoodPin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE9FF4C66667F464BFA16BC0AC830025 /* TextFieldEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9D77BE59D98AFEAEDF3C39DD221E61 /* TextFieldEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1CED1A7020036EF1162C520EAF960BB /* MOLH-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A34A4F22032784743265A08BA9780B26 /* MOLH-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B95B5A7C1CD8DEE336E273AA9D401B74 /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18F10BC38CF59F76A0626263166F17A /* KaedeTextField.swift */; };
 		D10548B59A2671C1A8CF28CACB67684A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		DD96FFE1264199929DE1AC969233AEFA /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5942C7778838F8E91CC7F73F1980AD8B /* MadokaTextField.swift */; };
-		E35824E96B366D6AB2229579DB1C4415 /* Pods-FoodPin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD100229B72C987FD574E4C94618512B /* Pods-FoodPin-dummy.m */; };
-		E4DE5745A783B0B1C66E71DB13373CF1 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA5ADC27A2313F98A4A5602F0FB560C /* YoshikoTextField.swift */; };
-		FAD2EF206C3D8CA21768F336C46A51E2 /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39BC466B0425113CAC2625AB3FE6E64 /* IsaoTextField.swift */; };
+		DD96FFE1264199929DE1AC969233AEFA /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF293038373FEE38B16F8270AA0F872 /* MadokaTextField.swift */; };
+		E270DE9CF8267344181F36624F0E4EC8 /* MOLH.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2173E2AC0B3D3D70CC8A33AC532F9151 /* MOLH.swift */; };
+		E4DE5745A783B0B1C66E71DB13373CF1 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5A88654D2C859C47377C687DED89E3 /* YoshikoTextField.swift */; };
+		FAD2EF206C3D8CA21768F336C46A51E2 /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AE76FDC680BEE79A2E1EB4F3FB013B /* IsaoTextField.swift */; };
+		FF8026E81CDED3081400F5D7D26E655A /* Pods-FoodPin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD100229B72C987FD574E4C94618512B /* Pods-FoodPin-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0B3C6EE73CCCE20ACE71ED5186B664E4 /* PBXContainerItemProxy */ = {
+		447A01BC6810B969F14AEF25A4410DAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13E17D11090C69C55E1CC5C52E359A6A;
+			remoteInfo = MOLH;
+		};
+		483A2FB2A5F2096087E78827847C47E1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -37,43 +52,64 @@
 
 /* Begin PBXFileReference section */
 		07823DDE1B60DCEBF1DB6510AD821EA1 /* Pods-FoodPin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FoodPin.modulemap"; sourceTree = "<group>"; };
+		0950EE9ADDC74A70610E63F5A2BA6774 /* MOLHLanguage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MOLHLanguage.swift; path = Sources/MOLH/MOLHLanguage.swift; sourceTree = "<group>"; };
+		1650C0B8976BC21955B35D7ADC6E3CDB /* MOLH-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MOLH-Info.plist"; sourceTree = "<group>"; };
+		17655F2A1A3E75D47A43A741196E0AE2 /* MOLH.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MOLH.release.xcconfig; sourceTree = "<group>"; };
 		180093D6C092FD4D7DD0C29F549D2D58 /* Pods-FoodPin-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FoodPin-frameworks.sh"; sourceTree = "<group>"; };
+		2173E2AC0B3D3D70CC8A33AC532F9151 /* MOLH.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MOLH.swift; path = Sources/MOLH/MOLH.swift; sourceTree = "<group>"; };
+		2B7DF744F3383E4FB9C9D7C31865F625 /* TextFieldEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TextFieldEffects.modulemap; sourceTree = "<group>"; };
+		2C42F2942BA5643EE650C727DB22D42E /* TextFieldEffects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldEffects.swift; sourceTree = "<group>"; };
 		31186A2397B5DBC4EF9A93F90C2AE278 /* Pods-FoodPin-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FoodPin-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		327E056BAD52B1FEC88C407FCA660EA8 /* MinoruTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
+		32B44F4B2D3B208995ABD5CE81E3AE80 /* HoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
 		3752D8B2ED0DBA9A9268D188A48A6C7D /* Pods-FoodPin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoodPin-Info.plist"; sourceTree = "<group>"; };
+		394479D2EA13EE7CFF353E845C7230CE /* TextFieldEffects-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TextFieldEffects-Info.plist"; sourceTree = "<group>"; };
 		3D284EB10B89C0A520847D66ED92F1E3 /* Pods-FoodPin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodPin.release.xcconfig"; sourceTree = "<group>"; };
 		471EBF70FA6042F9926E0B77F384332C /* Pods-FoodPin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodPin.debug.xcconfig"; sourceTree = "<group>"; };
-		5942C7778838F8E91CC7F73F1980AD8B /* MadokaTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
-		5CA5ADC27A2313F98A4A5602F0FB560C /* YoshikoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoshikoTextField.swift; path = TextFieldEffects/TextFieldEffects/YoshikoTextField.swift; sourceTree = "<group>"; };
-		5F4C3C09CA133F581750E48C1A713C90 /* AkiraTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = TextFieldEffects/TextFieldEffects/AkiraTextField.swift; sourceTree = "<group>"; };
-		63B9DED95880FEFD6B9F2F70903A211E /* HoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
-		6BF0C8BCC404E6B73FD0AB4DC6AC34E2 /* Pods_FoodPin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodPin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C966861F28F9DA256DB57E82BF54EFA /* TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
+		53D00651D4D76780A183991603D784AC /* MOLH-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MOLH-dummy.m"; sourceTree = "<group>"; };
+		6A5A88654D2C859C47377C687DED89E3 /* YoshikoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoshikoTextField.swift; path = TextFieldEffects/TextFieldEffects/YoshikoTextField.swift; sourceTree = "<group>"; };
+		6BF0C8BCC404E6B73FD0AB4DC6AC34E2 /* Pods_FoodPin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FoodPin.framework; path = "Pods-FoodPin.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FF293038373FEE38B16F8270AA0F872 /* MadokaTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
 		78FDB250714CFF88C0BA5D9A68DA00D1 /* Pods-FoodPin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FoodPin-umbrella.h"; sourceTree = "<group>"; };
-		877D2519CE3C647EE09FDCB3E89C80DF /* TextFieldEffects.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.release.xcconfig; sourceTree = "<group>"; };
-		8EF7C4F3953DD8485F14CA5EFB67FDD8 /* TextFieldEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
-		9506DA724C6F10EF01A979CAA24AB55D /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A5C90B0D7216EBC8C5E7D1CDA649A2ED /* JiroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
-		B09F7DC0288B3111A26F6943CF65739A /* KaedeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
-		B29477B9697CB1C8BCEE55B494CDD0E3 /* TextFieldEffects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldEffects.swift; sourceTree = "<group>"; };
-		B6BDF80017C12ED969B2B92A555DCB54 /* TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
-		BA51DB8C44249B387354D1D74D6D1E03 /* TextFieldEffects.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.debug.xcconfig; sourceTree = "<group>"; };
+		88C79E06F4AFC0AF61CA5A206F3632D1 /* AkiraTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = TextFieldEffects/TextFieldEffects/AkiraTextField.swift; sourceTree = "<group>"; };
+		8AEA51CA4DBA6736BED1C020023D4E33 /* MOLH.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MOLH.debug.xcconfig; sourceTree = "<group>"; };
+		9506DA724C6F10EF01A979CAA24AB55D /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TextFieldEffects.framework; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D4E1DF8EA746AD1338A242BFA1B273D /* TextFieldEffects.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A34A4F22032784743265A08BA9780B26 /* MOLH-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MOLH-umbrella.h"; sourceTree = "<group>"; };
+		A4EEE7894643E29BDBB4D6E7B3E67237 /* MOLH.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MOLH.framework; path = MOLH.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1C9AE36BCBCC11C4ACBFD640B8C7AB /* MOLHFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MOLHFont.swift; path = Sources/MOLH/MOLHFont.swift; sourceTree = "<group>"; };
 		BADF37CCABE06438C0BD4ED1B2239641 /* Pods-FoodPin-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoodPin-acknowledgements.plist"; sourceTree = "<group>"; };
-		BE655CC77CE6BD758B8B805BCB0509EF /* TextFieldEffects-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TextFieldEffects-Info.plist"; sourceTree = "<group>"; };
-		D5F1EED4AB9CD5C9D6757A94162D9650 /* MinoruTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
+		BED70C9C27952191FA7939E800298DC2 /* MOLH-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MOLH-prefix.pch"; sourceTree = "<group>"; };
+		C821A95702D5F36A68EDF4CD0989DE59 /* MOLH.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MOLH.modulemap; sourceTree = "<group>"; };
+		CB9D77BE59D98AFEAEDF3C39DD221E61 /* TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
+		CE5CDBD1D3AFE76C7A7F2AF90D34891C /* MOLHFontLocalizableViews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MOLHFontLocalizableViews.swift; path = Sources/MOLH/MOLHFontLocalizableViews.swift; sourceTree = "<group>"; };
+		D77AD5FA9C26B2AF0D7BC4DA6BE8549B /* JiroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
+		DC173B7B012F7DF3E038AE249949F8C2 /* TextFieldEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
 		DD100229B72C987FD574E4C94618512B /* Pods-FoodPin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FoodPin-dummy.m"; sourceTree = "<group>"; };
-		F39BC466B0425113CAC2625AB3FE6E64 /* IsaoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
-		F8E41FA8ECAD2D50B72379842D1A4CD1 /* TextFieldEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TextFieldEffects.modulemap; sourceTree = "<group>"; };
-		FC73B25C9DDB458F1536727156C0408B /* YokoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
+		E66A1EC1C6E79588F24136A3C39DADC1 /* TextFieldEffects.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.release.xcconfig; sourceTree = "<group>"; };
+		E6EE98CB371F45DCE24F34BCDAE98C32 /* MOLHSizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MOLHSizable.swift; path = Sources/MOLH/MOLHSizable.swift; sourceTree = "<group>"; };
+		E88BAD7E9C168C2B1E29C1B91308361D /* YokoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
+		F18F10BC38CF59F76A0626263166F17A /* KaedeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
+		F6AE76FDC680BEE79A2E1EB4F3FB013B /* IsaoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
+		FB3B1FB2799B5539EF0CE9F71BF70733 /* TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3A1499AC3AF401A186472A9626E83C65 /* Frameworks */ = {
+		4CD309DA1F0AC71D2C7840A114B64B5E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4308AF71548AFBA54D1968660B2765B6 /* Foundation.framework in Frameworks */,
+				457FF60E0C74C5CB1E9070B159110650 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5987768CB33F3DE24AB76D83AE9A1F56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C876A2D4F7E65C828A77953FA207630 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,12 +124,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		13CAE37B77F3FC74C09C5AAD6F32216C /* Pods */ = {
+		164E8EEC90FDD8369D78E59126C3230E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				922C4CCE5B0AA0DFC71B3B54929E3A95 /* TextFieldEffects */,
+				910469FF032A68284B160A139ACCAE27 /* MOLH */,
+				9802A4B5DA0A911DBA1E1B29B4355F73 /* TextFieldEffects */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		5E2BB153BBA699B9468949CC0D8CAC26 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B7DF744F3383E4FB9C9D7C31865F625 /* TextFieldEffects.modulemap */,
+				DC173B7B012F7DF3E038AE249949F8C2 /* TextFieldEffects-dummy.m */,
+				394479D2EA13EE7CFF353E845C7230CE /* TextFieldEffects-Info.plist */,
+				FB3B1FB2799B5539EF0CE9F71BF70733 /* TextFieldEffects-prefix.pch */,
+				CB9D77BE59D98AFEAEDF3C39DD221E61 /* TextFieldEffects-umbrella.h */,
+				9D4E1DF8EA746AD1338A242BFA1B273D /* TextFieldEffects.debug.xcconfig */,
+				E66A1EC1C6E79588F24136A3C39DADC1 /* TextFieldEffects.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TextFieldEffects";
+			sourceTree = "<group>";
+		};
+		73D8F260303FBDB4D6B4225CFCF07191 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4EEE7894643E29BDBB4D6E7B3E67237 /* MOLH.framework */,
+				6BF0C8BCC404E6B73FD0AB4DC6AC34E2 /* Pods_FoodPin.framework */,
+				9506DA724C6F10EF01A979CAA24AB55D /* TextFieldEffects.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		75EAA87C5DD5EF4B213264FA536E947D /* Pods-FoodPin */ = {
@@ -113,37 +175,37 @@
 			path = "Target Support Files/Pods-FoodPin";
 			sourceTree = "<group>";
 		};
-		922C4CCE5B0AA0DFC71B3B54929E3A95 /* TextFieldEffects */ = {
+		910469FF032A68284B160A139ACCAE27 /* MOLH */ = {
 			isa = PBXGroup;
 			children = (
-				5F4C3C09CA133F581750E48C1A713C90 /* AkiraTextField.swift */,
-				63B9DED95880FEFD6B9F2F70903A211E /* HoshiTextField.swift */,
-				F39BC466B0425113CAC2625AB3FE6E64 /* IsaoTextField.swift */,
-				A5C90B0D7216EBC8C5E7D1CDA649A2ED /* JiroTextField.swift */,
-				B09F7DC0288B3111A26F6943CF65739A /* KaedeTextField.swift */,
-				5942C7778838F8E91CC7F73F1980AD8B /* MadokaTextField.swift */,
-				D5F1EED4AB9CD5C9D6757A94162D9650 /* MinoruTextField.swift */,
-				B29477B9697CB1C8BCEE55B494CDD0E3 /* TextFieldEffects.swift */,
-				FC73B25C9DDB458F1536727156C0408B /* YokoTextField.swift */,
-				5CA5ADC27A2313F98A4A5602F0FB560C /* YoshikoTextField.swift */,
-				9DBE3EA6B94EFF55E48A4115AA3128F3 /* Support Files */,
+				2173E2AC0B3D3D70CC8A33AC532F9151 /* MOLH.swift */,
+				AC1C9AE36BCBCC11C4ACBFD640B8C7AB /* MOLHFont.swift */,
+				CE5CDBD1D3AFE76C7A7F2AF90D34891C /* MOLHFontLocalizableViews.swift */,
+				0950EE9ADDC74A70610E63F5A2BA6774 /* MOLHLanguage.swift */,
+				E6EE98CB371F45DCE24F34BCDAE98C32 /* MOLHSizable.swift */,
+				DB79E3CDC398B29E6989AAC4C9E0C5BA /* Support Files */,
 			);
-			path = TextFieldEffects;
+			name = MOLH;
+			path = MOLH;
 			sourceTree = "<group>";
 		};
-		9DBE3EA6B94EFF55E48A4115AA3128F3 /* Support Files */ = {
+		9802A4B5DA0A911DBA1E1B29B4355F73 /* TextFieldEffects */ = {
 			isa = PBXGroup;
 			children = (
-				F8E41FA8ECAD2D50B72379842D1A4CD1 /* TextFieldEffects.modulemap */,
-				8EF7C4F3953DD8485F14CA5EFB67FDD8 /* TextFieldEffects-dummy.m */,
-				BE655CC77CE6BD758B8B805BCB0509EF /* TextFieldEffects-Info.plist */,
-				6C966861F28F9DA256DB57E82BF54EFA /* TextFieldEffects-prefix.pch */,
-				B6BDF80017C12ED969B2B92A555DCB54 /* TextFieldEffects-umbrella.h */,
-				BA51DB8C44249B387354D1D74D6D1E03 /* TextFieldEffects.debug.xcconfig */,
-				877D2519CE3C647EE09FDCB3E89C80DF /* TextFieldEffects.release.xcconfig */,
+				88C79E06F4AFC0AF61CA5A206F3632D1 /* AkiraTextField.swift */,
+				32B44F4B2D3B208995ABD5CE81E3AE80 /* HoshiTextField.swift */,
+				F6AE76FDC680BEE79A2E1EB4F3FB013B /* IsaoTextField.swift */,
+				D77AD5FA9C26B2AF0D7BC4DA6BE8549B /* JiroTextField.swift */,
+				F18F10BC38CF59F76A0626263166F17A /* KaedeTextField.swift */,
+				6FF293038373FEE38B16F8270AA0F872 /* MadokaTextField.swift */,
+				327E056BAD52B1FEC88C407FCA660EA8 /* MinoruTextField.swift */,
+				2C42F2942BA5643EE650C727DB22D42E /* TextFieldEffects.swift */,
+				E88BAD7E9C168C2B1E29C1B91308361D /* YokoTextField.swift */,
+				6A5A88654D2C859C47377C687DED89E3 /* YoshikoTextField.swift */,
+				5E2BB153BBA699B9468949CC0D8CAC26 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/TextFieldEffects";
+			name = TextFieldEffects;
+			path = TextFieldEffects;
 			sourceTree = "<group>";
 		};
 		BC7F36473F37F17BFD5B394835AF42B0 /* Targets Support Files */ = {
@@ -167,8 +229,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				13CAE37B77F3FC74C09C5AAD6F32216C /* Pods */,
-				F766D45FA43B81ABCB305E9237C703BF /* Products */,
+				164E8EEC90FDD8369D78E59126C3230E /* Pods */,
+				73D8F260303FBDB4D6B4225CFCF07191 /* Products */,
 				BC7F36473F37F17BFD5B394835AF42B0 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -181,18 +243,40 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F766D45FA43B81ABCB305E9237C703BF /* Products */ = {
+		DB79E3CDC398B29E6989AAC4C9E0C5BA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6BF0C8BCC404E6B73FD0AB4DC6AC34E2 /* Pods_FoodPin.framework */,
-				9506DA724C6F10EF01A979CAA24AB55D /* TextFieldEffects.framework */,
+				C821A95702D5F36A68EDF4CD0989DE59 /* MOLH.modulemap */,
+				53D00651D4D76780A183991603D784AC /* MOLH-dummy.m */,
+				1650C0B8976BC21955B35D7ADC6E3CDB /* MOLH-Info.plist */,
+				BED70C9C27952191FA7939E800298DC2 /* MOLH-prefix.pch */,
+				A34A4F22032784743265A08BA9780B26 /* MOLH-umbrella.h */,
+				8AEA51CA4DBA6736BED1C020023D4E33 /* MOLH.debug.xcconfig */,
+				17655F2A1A3E75D47A43A741196E0AE2 /* MOLH.release.xcconfig */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/MOLH";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		3C8E1903397A3808643E99DB4D6BE24B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1CED1A7020036EF1162C520EAF960BB /* MOLH-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CE9D402D6383E6CAC6B685488D5435B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADEB6B1CE95DE2729D2B675658B0FF57 /* Pods-FoodPin-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C157353C93028E802E01175464C44D79 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -201,17 +285,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F2F61A9F0DBAB449CB02118460276D91 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				88DD9343E52B59E23C4ADF9E707DD921 /* Pods-FoodPin-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		13E17D11090C69C55E1CC5C52E359A6A /* MOLH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 833D8F43C1DF5876580B43A392DB332A /* Build configuration list for PBXNativeTarget "MOLH" */;
+			buildPhases = (
+				3C8E1903397A3808643E99DB4D6BE24B /* Headers */,
+				6D68D8F9B0665C649CA3EAC90362B719 /* Sources */,
+				4CD309DA1F0AC71D2C7840A114B64B5E /* Frameworks */,
+				D8BEACF8DEE7900A1B2353697EE48B66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MOLH;
+			productName = MOLH;
+			productReference = A4EEE7894643E29BDBB4D6E7B3E67237 /* MOLH.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		D09BAB8A20917611A8AD17E2E0EE8271 /* TextFieldEffects */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0016DD682E4DCA6A5CF2BFFFCA105AA /* Build configuration list for PBXNativeTarget "TextFieldEffects" */;
@@ -232,17 +326,18 @@
 		};
 		F809367FB86BFC78672731A258149A67 /* Pods-FoodPin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CED3DD768E86B49F6A5DB83BAB93C657 /* Build configuration list for PBXNativeTarget "Pods-FoodPin" */;
+			buildConfigurationList = E33012E6A79BA67C5FF7AE462D15F567 /* Build configuration list for PBXNativeTarget "Pods-FoodPin" */;
 			buildPhases = (
-				F2F61A9F0DBAB449CB02118460276D91 /* Headers */,
-				D5CB860226255E50CC71D1B2A74F74CF /* Sources */,
-				3A1499AC3AF401A186472A9626E83C65 /* Frameworks */,
-				1D4D8E9EDE97315CEABDF0536CD6E8F0 /* Resources */,
+				3CE9D402D6383E6CAC6B685488D5435B /* Headers */,
+				02E64CF24B5CA5008AD4C88781E26D2C /* Sources */,
+				5987768CB33F3DE24AB76D83AE9A1F56 /* Frameworks */,
+				D14E9A1643E36CB283D508CAF0E065D6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7E0F79D885441E3E921A76650A3ED7C6 /* PBXTargetDependency */,
+				37B251C7AC66ABA2E5A3F184779029C8 /* PBXTargetDependency */,
+				6B03709361ACD03E4AAD8F8F28A7B8A9 /* PBXTargetDependency */,
 			);
 			name = "Pods-FoodPin";
 			productName = "Pods-FoodPin";
@@ -267,10 +362,11 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = F766D45FA43B81ABCB305E9237C703BF /* Products */;
+			productRefGroup = 73D8F260303FBDB4D6B4225CFCF07191 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				13E17D11090C69C55E1CC5C52E359A6A /* MOLH */,
 				F809367FB86BFC78672731A258149A67 /* Pods-FoodPin */,
 				D09BAB8A20917611A8AD17E2E0EE8271 /* TextFieldEffects */,
 			);
@@ -278,14 +374,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1D4D8E9EDE97315CEABDF0536CD6E8F0 /* Resources */ = {
+		2DA43BDC71E65F6BD504488174D8B7D5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2DA43BDC71E65F6BD504488174D8B7D5 /* Resources */ = {
+		D14E9A1643E36CB283D508CAF0E065D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8BEACF8DEE7900A1B2353697EE48B66 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -295,11 +398,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D5CB860226255E50CC71D1B2A74F74CF /* Sources */ = {
+		02E64CF24B5CA5008AD4C88781E26D2C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E35824E96B366D6AB2229579DB1C4415 /* Pods-FoodPin-dummy.m in Sources */,
+				FF8026E81CDED3081400F5D7D26E655A /* Pods-FoodPin-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D68D8F9B0665C649CA3EAC90362B719 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38BFC3CD5480E0EEAB911DD3BD7BFCD5 /* MOLH-dummy.m in Sources */,
+				E270DE9CF8267344181F36624F0E4EC8 /* MOLH.swift in Sources */,
+				9A7BE1A3E1D5A02BEACED64D0952217B /* MOLHFont.swift in Sources */,
+				46A843A9E8649817906128924C1AF4AE /* MOLHFontLocalizableViews.swift in Sources */,
+				8D16265DA7CAD0A406817EE5A4D88A1D /* MOLHLanguage.swift in Sources */,
+				9AD533305E05388B90C35909262A2975 /* MOLHSizable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,18 +440,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7E0F79D885441E3E921A76650A3ED7C6 /* PBXTargetDependency */ = {
+		37B251C7AC66ABA2E5A3F184779029C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MOLH;
+			target = 13E17D11090C69C55E1CC5C52E359A6A /* MOLH */;
+			targetProxy = 447A01BC6810B969F14AEF25A4410DAE /* PBXContainerItemProxy */;
+		};
+		6B03709361ACD03E4AAD8F8F28A7B8A9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TextFieldEffects;
 			target = D09BAB8A20917611A8AD17E2E0EE8271 /* TextFieldEffects */;
-			targetProxy = 0B3C6EE73CCCE20ACE71ED5186B664E4 /* PBXContainerItemProxy */;
+			targetProxy = 483A2FB2A5F2096087E78827847C47E1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0277636CC10A9DFEA008F7519AA90E6A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA51DB8C44249B387354D1D74D6D1E03 /* TextFieldEffects.debug.xcconfig */;
+			baseConfigurationReference = 9D4E1DF8EA746AD1338A242BFA1B273D /* TextFieldEffects.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -370,7 +492,7 @@
 		};
 		1E0055DF47FFBEC03C64B827DEBE7B5A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 877D2519CE3C647EE09FDCB3E89C80DF /* TextFieldEffects.release.xcconfig */;
+			baseConfigurationReference = E66A1EC1C6E79588F24136A3C39DADC1 /* TextFieldEffects.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -393,6 +515,80 @@
 				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
 				PRODUCT_MODULE_NAME = TextFieldEffects;
 				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4CE933713D5DC84075485BF171A249EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D284EB10B89C0A520847D66ED92F1E3 /* Pods-FoodPin.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoodPin/Pods-FoodPin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoodPin/Pods-FoodPin.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		78DB55A1B92B9DF84CF4DB00FDE2BD25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17655F2A1A3E75D47A43A741196E0AE2 /* MOLH.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MOLH/MOLH-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MOLH/MOLH-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MOLH/MOLH.modulemap";
+				PRODUCT_MODULE_NAME = MOLH;
+				PRODUCT_NAME = MOLH;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -528,7 +724,7 @@
 			};
 			name = Debug;
 		};
-		E171E6F6F1A02A67204FB51E56A4D564 /* Debug */ = {
+		91A039C66198AEACD5CBE3153A87D783 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 471EBF70FA6042F9926E0B77F384332C /* Pods-FoodPin.debug.xcconfig */;
 			buildSettings = {
@@ -565,11 +761,10 @@
 			};
 			name = Debug;
 		};
-		EDBC4057D369AE59A4A434C8A87157E7 /* Release */ = {
+		987D402B7117C1AFFE23B99351E4D281 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D284EB10B89C0A520847D66ED92F1E3 /* Pods-FoodPin.release.xcconfig */;
+			baseConfigurationReference = 8AEA51CA4DBA6736BED1C020023D4E33 /* MOLH.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -579,7 +774,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FoodPin/Pods-FoodPin-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MOLH/MOLH-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MOLH/MOLH-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -587,21 +783,18 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FoodPin/Pods-FoodPin.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/MOLH/MOLH.modulemap";
+				PRODUCT_MODULE_NAME = MOLH;
+				PRODUCT_NAME = MOLH;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -615,6 +808,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		833D8F43C1DF5876580B43A392DB332A /* Build configuration list for PBXNativeTarget "MOLH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				987D402B7117C1AFFE23B99351E4D281 /* Debug */,
+				78DB55A1B92B9DF84CF4DB00FDE2BD25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C0016DD682E4DCA6A5CF2BFFFCA105AA /* Build configuration list for PBXNativeTarget "TextFieldEffects" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -624,11 +826,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CED3DD768E86B49F6A5DB83BAB93C657 /* Build configuration list for PBXNativeTarget "Pods-FoodPin" */ = {
+		E33012E6A79BA67C5FF7AE462D15F567 /* Build configuration list for PBXNativeTarget "Pods-FoodPin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E171E6F6F1A02A67204FB51E56A4D564 /* Debug */,
-				EDBC4057D369AE59A4A434C8A87157E7 /* Release */,
+				91A039C66198AEACD5CBE3153A87D783 /* Debug */,
+				4CE933713D5DC84075485BF171A249EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

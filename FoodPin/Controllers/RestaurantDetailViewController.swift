@@ -82,20 +82,20 @@ class RestaurantDetailViewController: UIViewController, UITableViewDelegate, UIT
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! RestaurantDetailTableViewCell
         switch indexPath.row {
        case 0:
-        cell.fieldLabel.text = "Name"
+        cell.fieldLabel.text = "RestName".localized
         cell.valueLabel.text = restaurant.name
         case 1:
-        cell.fieldLabel.text = "Type"
+            cell.fieldLabel.text = "RestType".localized
         cell.valueLabel.text = restaurant.type
         case 2:
-        cell.fieldLabel.text = "Location"
+            cell.fieldLabel.text = "RestLocation".localized
         cell.valueLabel.text = restaurant.location
         case 3:
-        cell.fieldLabel.text = "Phone Number"
+            cell.fieldLabel.text = "RestPhone".localized
         cell.valueLabel.text = restaurant.phoneNumber
         case 4:
-        cell.fieldLabel.text = "Been here"
-        cell.valueLabel.text = (restaurant.isVisited) ? "Yes, I've been here before \(restaurant.rating ?? "")" : "No"
+            cell.fieldLabel.text = "RestBeenHere".localized
+            cell.valueLabel.text = (restaurant.isVisited) ? "RestIsVisitedYes".localized  + " \(restaurant.rating ?? "")" : "RestIsVisitedNo".localized
         default:
         cell.fieldLabel.text = ""
         cell.valueLabel.text = ""
@@ -129,9 +129,9 @@ class RestaurantDetailViewController: UIViewController, UITableViewDelegate, UIT
         if let rating = segue.identifier{
             restaurant.isVisited = true
         switch rating{
-            case "great": restaurant.rating = "Absolutely love it! Must try."
-            case "good": restaurant.rating = "Pretty good."
-            case "dislike": restaurant.rating = "                I don't like it."
+        case "great": restaurant.rating = "RestReviewGreat".localized
+        case "good": restaurant.rating = "RestReviewGood".localized
+        case "dislike": restaurant.rating = "RestReviewDislike".localized
             default: break
             }
         }

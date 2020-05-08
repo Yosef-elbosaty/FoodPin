@@ -1,0 +1,42 @@
+/* 
+  Localizable.strings
+  FoodPin
+
+  Created by yosef elbosaty on 5/6/20.
+  Copyright © 2020 yosef elbosaty. All rights reserved.
+*/
+//RestaurantTableViewController
+"SearchTXT" = "Search restaurants...";
+"DelAction" = "Delete";
+"ShareAction" = "Share";
+
+//RestaurantDetailViewController
+"RestName" = "Name";
+"RestType" = "Type";
+"RestLocation" = "Location";
+"RestPhone" = "Phone Number";
+"RestBeenHere" = "Been here";
+"RestIsVisitedYes" = "Yes, I've been here before";
+"RestIsVisitedNo" = "No";
+"RestReviewGreat" = "Absolutely love it! Must try.";
+"RestReviewGood" = "Pretty good.";
+"RestReviewDislike" = "                I don't like it.";
+
+//AddRestaurantTableViewController
+"AlertTitle" = "OOPS!";
+"Alertmsg" = "We can't proceed because one of the fields is blank, Please note that all fields are required.";
+"AlertAction" = "Ok";
+
+//WalkthroughContentViewController
+"ForwardBtnNXT" = "NEXT";
+"ForwardBtnDN" = "DONE";
+
+//AboutTableViewController
+"Leave Feedback" = "Leave Feedback";
+"Follow Us" = "Follow Us";
+"Rate us on App Store" = "Rate us on App Store";
+"Tell us your feedback" = "Tell us your feedback";
+
+"MOLHButton" = "عربي";
+
+

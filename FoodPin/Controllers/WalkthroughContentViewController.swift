@@ -31,8 +31,8 @@ class WalkthroughContentViewController: UIViewController {
         contentLabel.text = content
         
         switch index {
-        case 0...1 : forwardButton.setTitle("NEXT", for: .normal)
-        case 2 : forwardButton.setTitle("DONE", for: .normal)
+        case 0...1 : forwardButton.setTitle("ForwardBtnNXT".localized, for: .normal)
+        case 2 : forwardButton.setTitle("ForwardBtnDN".localized, for: .normal)
         default : break
         }
     }

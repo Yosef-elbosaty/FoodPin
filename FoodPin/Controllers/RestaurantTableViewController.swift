@@ -8,7 +8,7 @@
 
 import UIKit
 import CoreData
-
+import MOLH
     
     
 
@@ -20,10 +20,13 @@ class RestaurantTableViewController: UITableViewController, NSFetchedResultsCont
     
     //Outlets Declaration
     var searchController : UISearchController!
+    @IBOutlet var MOLHButton : UIBarButtonItem!
    
     override func viewWillAppear(_ animated: Bool) {
     super.viewWillAppear(animated)
+        
     navigationController?.hidesBarsOnSwipe = true
+     
     }
     //Instantiate WalkthroughController
     override func viewDidAppear(_ animated: Bool) {
@@ -35,11 +38,18 @@ class RestaurantTableViewController: UITableViewController, NSFetchedResultsCont
         if let pageViewController = storyboard?.instantiateViewController(withIdentifier: "WalkthroughController") as? WalkthroughPageViewController {
             present(pageViewController, animated: true, completion: nil)
         }
+       
+        self.resignFirstResponder()
+       
+        
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
 
+        MOLHButton.title = "MOLHButton".localized
+        
         navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
         
         //Fetching Data From CoreData
@@ -66,7 +76,7 @@ class RestaurantTableViewController: UITableViewController, NSFetchedResultsCont
         searchController.dimsBackgroundDuringPresentation = false
         
         //Customize Search Bar Appearance
-        searchController.searchBar.placeholder = "Search restaurants..."
+        searchController.searchBar.placeholder = "SearchTXT".localized
         searchController.searchBar.tintColor = UIColor.white
         searchController.searchBar.barTintColor = UIColor(red: 218.0/255.0, green: 100.0/255.0, blue: 70.0/255.0, alpha: 1.0)
         searchController.searchBar.searchTextField.backgroundColor = UIColor.white
@@ -100,7 +110,7 @@ class RestaurantTableViewController: UITableViewController, NSFetchedResultsCont
         return cell
     }
     override func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
-        let deleteAction = UIContextualAction(style: .destructive, title: "Delete") { (action, view, handler) in
+        let deleteAction = UIContextualAction(style: .destructive, title: "DelAction".localized) { (action, view, handler) in
         
         if let appDelegate = UIApplication.shared.delegate as? AppDelegate{
         let context = appDelegate.persistentContainer.viewContext
@@ -111,7 +121,7 @@ class RestaurantTableViewController: UITableViewController, NSFetchedResultsCont
         handler(true)
         }
         
-        let shareAction = UIContextualAction(style: .normal, title: "Share") { (action, view, handler) in
+        let shareAction = UIContextualAction(style: .normal, title: "ShareAction".localized) { (action, view, handler) in
             if let imageToShare = UIImage(data: self.restaurants[indexPath.row].image!){
                 let defaultText = "Just Checking At " + self.restaurants[indexPath.row].name!
                 let activityController = UIActivityViewController(activityItems: [defaultText, imageToShare], applicationActivities: nil)
@@ -210,6 +220,16 @@ class RestaurantTableViewController: UITableViewController, NSFetchedResultsCont
         }
     }
     
+    //MARK:- MOLH Button Pressed
+    @IBAction func MOLHButtonPressed(_ sender: Any) {
+        
+        MOLH.setLanguageTo(MOLHLanguage.currentAppleLanguage() == "en" ? "ar" : "en")
+        MOLH.reset()
+        self.viewDidLoad()
+       
+    }
+    
+   
 }
   
 
