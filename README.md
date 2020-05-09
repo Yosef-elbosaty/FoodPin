@@ -1,5 +1,5 @@
 # FoodPin
-This an IOS application coforms to MVC design pattern that uses:
+This an IOS application coforms to MVC design pattern that uses: <br />
 1- CoreData <br />
 2- TabbarController <br />
 3- NavigationController <br />
