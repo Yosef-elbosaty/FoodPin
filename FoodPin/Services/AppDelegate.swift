@@ -11,7 +11,7 @@ import CoreData
 import MOLH
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate, MOLHResetable {
+class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     
@@ -42,16 +42,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate, MOLHResetable {
         return true
     }
     
-    //MOLH Protocol
-    func reset() {
-        
-        let rootviewcontroller: UIWindow = ((UIApplication.shared.delegate?.window)!)!
-        let stry = UIStoryboard(name: "Main", bundle: nil)
-        rootviewcontroller.rootViewController = stry.instantiateViewController(withIdentifier: "Home")
-        
-
-     
-    }
+//    //MOLH Protocol
+//    func reset() {
+//
+//        let rootviewcontroller: UIWindow = ((UIApplication.shared.delegate?.window)!)!
+//        let stry = UIStoryboard(name: "Main", bundle: nil)
+//        rootviewcontroller.rootViewController = stry.instantiateViewController(withIdentifier: "Home")
+//
+//
+//
+//    }
 
     // MARK: UISceneSession Lifecycle
 

@@ -224,10 +224,20 @@ class RestaurantTableViewController: UITableViewController, NSFetchedResultsCont
     @IBAction func MOLHButtonPressed(_ sender: Any) {
         
         MOLH.setLanguageTo(MOLHLanguage.currentAppleLanguage() == "en" ? "ar" : "en")
-        MOLH.reset()
         self.viewDidLoad()
+        restartApp()
        
     }
+    
+    //MARK:- Restarting App
+    func restartApp(){
+           guard let window = UIApplication.shared.keyWindow else{return}
+           let sb = UIStoryboard(name: "Main", bundle: nil)
+           var vc : UIViewController
+               vc = sb.instantiateViewController(withIdentifier: "Home")
+           window.rootViewController = vc
+           UIView.transition(with: window, duration: 0.5, options: .transitionFlipFromLeft, animations: nil, completion: nil)
+       }
     
    
 }
